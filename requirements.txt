@@ -1,23 +1,16 @@
-streamlit==1.36.0
-
-langchain==0.1.20
-langchain-community==0.0.38
-langchain-core==0.1.52
-
+streamlit==1.29.0
+langchain==0.1.14
+langchain-community==0.0.20
+langchain-core==0.1.42
+langchain-text-splitters==0.0.1
 chromadb==0.4.22
 sentence-transformers==2.2.2
-
+transformers==4.37.2
+accelerate==0.27.2
+bitsandbytes==0.42.0
 huggingface-hub==0.20.3
-transformers==4.39.3
-accelerate==0.28.0
 torch==2.1.2
-
-pydantic==1.10.13
-protobuf==4.25.1
-
-# disable langsmith to avoid errors
-langsmith==0.1.5
-
-# sometimes needed
-tiktoken
-typing-extensions
+protobuf==3.20.3
+typing-extensions==4.9.0
+uvicorn==0.23.2
+fastapi==0.110.0
