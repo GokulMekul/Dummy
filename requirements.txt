@@ -2,7 +2,7 @@ streamlit
 torch
 transformers
 sentence-transformers
-langchain
+langchain==0.1.17
 langchain-community
 langchain-huggingface
 chromadb
