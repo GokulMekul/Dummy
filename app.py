@@ -9,7 +9,7 @@ Original file is located at
 
 import streamlit as st
 
-from langchain.chains.retrieval_qa import RetrievalQA
+from langchain_community.chains import RetrievalQA
 
 from langchain_huggingface import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
